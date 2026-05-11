@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LeetMatrix Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1 class="title">LeetMatrix</h1>
+    <p class="subtitle">Track your LeetCode progress</p>
+
+    <div class="search-box">
+        <input type="text" id="user-input" placeholder="Enter LeetCode username">
+        <button id="search-btn">Search</button>
+    </div>
+
+    <div class="stats-container">
+
+        <div class="circle easy">
+            <h3>Easy</h3>
+            <span id="easy-label">0/0</span>
+        </div>
+
+        <div class="circle medium">
+            <h3>Medium</h3>
+            <span id="medium-label">0/0</span>
+        </div>
+
+        <div class="circle hard">
+            <h3>Hard</h3>
+            <span id="hard-label">0/0</span>
+        </div>
+
+    </div>
+
+    <div id="stats-cards"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
